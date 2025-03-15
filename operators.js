@@ -39,3 +39,56 @@ console.log(num1 === num2); // false
 
 // Note: Stick to === strict equality operator for equality comparisions
 
+
+// ternary operator (its a conditional operator to write cleaner code)
+let age = 15;
+let canDrive = age >= 18 ? true : false;
+console.log('canDrive', canDrive);
+
+let value1 = '2';
+let value2 = 2;
+
+const checkSame = (value1 === value2) ? true : false;
+
+console.log('checkSame', checkSame);
+
+// Logical operator
+// There are 4 types of logical operators
+// &&, ||, !, ?? (null coalesing)
+
+// the precedence of && operator is more than || operator
+// ??, nullish coalesing operator
+
+let doesValueExist = null;
+
+// const result = (doesValueExist != null && doesValueExist != undefined) ? doesValueExist : false;
+
+// shorthand version of this by using nullish coalesing operator
+
+const result = doesValueExist ?? false; // this is cleaner code and does the same thing
+
+console.log(result);
+
+
+// logical operators with non-boolean value
+
+// expressions are evaluated from left to right and when we are using logical operators with non-boolean value, it turns the value of operand rather than true or false
+
+// truthy and falsy values
+// anything that's:
+// undefined, null, 0, false, '', NaN are falsy values in JS
+
+// Everything else is a truthy value
+
+// || operator
+console.log(false || 'Adarsh'); // 'Adarsh' (since its a truthy value)
+
+// first truthy value and short-circuit evaluation for || operator
+
+// Note: short-cicuit evaluation means it stops the expression once it can evaluate to 'truthy' or 'falsy'
+console.log("" || 2 || 1); // outputs: 2 
+
+let userName = 'Adarsh';
+let defaultName = 'default';
+
+console.log(userName || defaultName);
