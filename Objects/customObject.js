@@ -14,8 +14,5 @@ function Person(name, age, gender) {
 const newObj = Person("Adarsh", 21, "Male");
 
 console.log(newObj);
-<<<<<<< HEAD
-=======
 // newObj.message();
 customObj.message();
->>>>>>> c1ca64d (Initial commit)

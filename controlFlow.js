@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 // Made this just cause I am not going to procrastinate on control flow topic 
 
-=======
->>>>>>> c1ca64d (Initial commit)
+// Made this just cause I am not going to procrastinate on control flow topic 
+
 // if else statement
 
 // switch case statement
@@ -56,8 +56,7 @@ function displayOddNumbers(number) {
         if (number % 2 != 0) console.log(number);
     }
 }
-<<<<<<< HEAD
-=======
+
 
 
 // implementing fizzBuzz function
@@ -74,4 +73,4 @@ function fizzBuzz(number) {
     else 
         return number;
 }
->>>>>>> c1ca64d (Initial commit)
+

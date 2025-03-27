@@ -25,11 +25,10 @@ let name = 'Adarsh'; // assigning value to a variable
 // >, <, >=, <= 
 
 // equality operator
-<<<<<<< HEAD
+
 // here we have loose equality operator and strict equality operator
-=======
 // here we have 'loose equality operator' and 'strict equality operator'
->>>>>>> c1ca64d (Initial commit)
+// here we have loose equality operator and strict equality operator
 
 let num1 = 2;
 let num2 = '2';
@@ -95,8 +94,5 @@ console.log("" || 2 || 1); // outputs: 2
 let userName = 'Adarsh';
 let defaultName = 'default';
 
-<<<<<<< HEAD
 console.log(userName || defaultName);
-=======
 console.log(userName || defaultName);
->>>>>>> c1ca64d (Initial commit)

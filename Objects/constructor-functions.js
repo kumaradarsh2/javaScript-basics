@@ -38,7 +38,6 @@ function Dog(name, breed, age, weightInKg) {
     // this is done internally
     // return this;
 
-<<<<<<< HEAD
     // To call constructor function, we use special keyword 'new'
     // 
 
@@ -46,14 +45,6 @@ function Dog(name, breed, age, weightInKg) {
     // an initial state. (set by the arguments passed to the parameter variables)
 }
 
-=======
-}
-
-// To call constructor function, we use special keyword 'new'
-// The goal of a constructor function is to initialize/instantiate an object with
-// an initial state. (set by the arguments passed to the parameter variables)
-
->>>>>>> c1ca64d (Initial commit)
 // why do we use 'new' keyword?
 
 /*
@@ -79,9 +70,8 @@ function Person(name, age) {
 const person1 = new Person ("Alice", 30);
 console.log(person1);
 
-<<<<<<< HEAD
 person1.sayHello();
 
-=======
 person1.sayHello();
->>>>>>> c1ca64d (Initial commit)
+person1.sayHello();
+
