@@ -189,6 +189,11 @@ console.log(ans);
 // In JS function is a first class citizen 
 // It means we can create a function, assign a function to a variable, return a function, define a function with another function (nested functions), and we can pass function as parameter to another function
 
+// Eg. Returning a function and later invoking it
+const customFunc = (y) => () => y;
+
+console.log(customFunc(4)()); // invoking the function using () after function string 
+
 // foo function can take another function as parameter
 function foo(bar) {
     bar(); // we are simply executing the function as we do with numbers, strings etc. 
