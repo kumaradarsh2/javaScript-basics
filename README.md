@@ -1,4 +1,4 @@
-# JavaScript Basics 🚀  
+# JavaScript Learning 🚀  
 
 In this repository, I am revisiting the **fundamentals of JavaScript** to strengthen my understanding of core concepts.  
 
@@ -8,7 +8,8 @@ In this repository, I am revisiting the **fundamentals of JavaScript** to streng
 - ✅ Control Flow  
 - ✅ Objects  
 - ✅ Arrays  
-- ✅ Functions  
+- ✅ Functions
+- ✅ Async JavaScript
 
 ## 📂 Repository Structure  
 Each topic has dedicated code snippets and examples for better understanding.  
