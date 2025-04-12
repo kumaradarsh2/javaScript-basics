@@ -9,6 +9,7 @@ In this repository, I am revisiting the **fundamentals of JavaScript** to streng
 - ✅ Objects  
 - ✅ Arrays  
 - ✅ Functions
+- ✅ Error Handling
 - ✅ Async JavaScript
 
 ## 📂 Repository Structure  
