@@ -95,4 +95,3 @@ let userName = 'Adarsh';
 let defaultName = 'default';
 
 console.log(userName || defaultName);
-console.log(userName || defaultName);
