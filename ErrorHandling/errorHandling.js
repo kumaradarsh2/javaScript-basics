@@ -99,6 +99,10 @@
 /***************************************************************************************/
 
 // Throwing custom error
+// throw new Error(...)
+// This is when we want to explicitly singal that something has gone wrong in our code and 
+// stopping the normal flow of execution
+
 function divide(a, b) {
     if (b === 0) {
         throw new Error("cannot divide by zero!");
